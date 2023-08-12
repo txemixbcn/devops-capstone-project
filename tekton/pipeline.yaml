@@ -14,7 +14,7 @@ spec:
   params:
     - name: repo-url
     - name: branch
-      default: mainkubectl apply -f tekton/pipeline.yaml
+      default: main
     - name: build-image      
   tasks:
     - name: init
